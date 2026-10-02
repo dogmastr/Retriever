@@ -1,0 +1,16 @@
+# Publish only the library and README.
+# Development files (docs, tests, tools), caches and build artifacts stay local.
+/*
+!/.gitignore
+!/README.md
+!/src/
+/src/*
+!/src/Retriever/
+
+# Generated files inside the source tree.
+**/.DS_Store
+**/*.lock
+**/*.rbxl
+**/*.rbxlx
+**/*.rbxm
+**/*.rbxmx
